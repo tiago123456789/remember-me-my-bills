@@ -6,7 +6,7 @@ export default async function handler(
     response
 ) {
 
-    if (request.query.key !== process.env.VALIDATE_KEY) {
+    if (request.body.key !== process.env.VALIDATE_KEY) {
         response.status(200).json();
         return;
     }
