@@ -21,7 +21,7 @@ const notifyBillsToPay = async (messageToNotify) => {
     if (messageToNotify.length > 0) {
         return axios.post(process.env.DISCORD_WEBHOOK_URL,
             {
-                content: messageToNotify
+                content: `Good morning! You @here have bills to pay today\n${messageToNotify}`
             })
     }
 
