@@ -17,6 +17,12 @@ Referencies:
 - https://jvvoliveira.medium.com/manipulando-google-sheets-com-node-js-4a551c68b270
 - https://vercel.com/guides/how-to-setup-cron-jobs-on-vercel
 
+Architecture:
+===============
+
+![architecture](./archicture_rememberme_mybills.png)
+
+
 Instructions to running locally:
 ================================
 
